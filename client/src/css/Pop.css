@@ -1,0 +1,29 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 350px;
+    width: 450px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px dodgerblue;
+    border:2px solid #2c2b2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+.box{
+    display: flex;
+    align-items: flex-end;
+}
+.innerbox{
+    font-size: 2rem;
+}
